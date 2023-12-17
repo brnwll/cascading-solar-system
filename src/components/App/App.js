@@ -2,7 +2,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <div id="solar-system" className="App">
       <h1>Cascading Solar System</h1>
     </div>
   );
