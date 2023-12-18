@@ -1,9 +1,30 @@
-#solar-system {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  background: #000;
-  z-index: -100;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;500;800&display=swap");
+
+body {
+  font-family: "Roboto Slab", serif;
   color: white;
-  background: url("./app-background.jpg") repeat black;
+  background: url("./background.jpg") repeat black;
+}
+
+#solar-system {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#solar-system h1 {
+  margin-top: 200px;
+  margin-bottom: 400px;
+  font-size: 3rem;
+  text-align: left;
+}
+
+#solar-system h1 div.css::first-letter {
+  color: rgba(240, 17, 17, 0.818);
+}
+
+#infinity {
+  height: 500px;
 }
