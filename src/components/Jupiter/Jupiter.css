@@ -1,7 +1,7 @@
 #jupiter .planet {
-  width: 600px; /* 86,881 miles in diameter */
-  height: 600px; /* not to scale */
-  margin: -300px 0 0 -300px;
+  width: 500px; /* 86,881 miles in diameter */
+  height: 500px; /* not to scale */
+  margin: -250px 0 0 -250px;
   background-repeat: repeat-x;
   background-image: url("./background.jpg");
   background-size: auto 108%;
