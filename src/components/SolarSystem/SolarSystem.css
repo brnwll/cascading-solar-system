@@ -21,6 +21,18 @@
   color: rgba(240, 17, 17, 0.818);
 }
 
+#solar-system h1 .desc {
+  border-top: 1px solid rgba(255, 255, 255, 0.184);
+  padding-top: 10px;
+  margin-top: 10px;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.484);
+}
+
+#solar-system h1 div.desc::first-letter {
+  color: rgba(255, 255, 255, 0.484);
+}
+
 #infinity {
   height: 500px;
 }
@@ -29,6 +41,8 @@
 
 .planetary-system {
   height: 1000px;
+  display: flex;
+  flex-direction: column;
 }
 
 .planet,
@@ -41,4 +55,13 @@
 .crater {
   position: absolute;
   border-radius: 50%;
+}
+
+h2 {
+  color: blue;
+}
+
+.planet-desc {
+  max-width: 300px;
+  background: red;
 }

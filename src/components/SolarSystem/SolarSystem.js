@@ -18,6 +18,7 @@ function SolarSystem() {
         <div className="css">Cascading </div>
         <div className="css">Solar </div>
         <div className="css">System </div>
+        <div className="css desc">An exercise in CSS animations</div>
       </h1>
       <Mercury />
       <Venus />

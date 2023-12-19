@@ -7,6 +7,13 @@ const Mars = () => {
       <div className="planet"></div>
       <div id="phobos" className="moon"></div>
       <div id="deimos" className="moon"></div>
+      <h2>Planet name</h2>
+      <p className="planet-desc">
+        Description of Planet name. Add anything you want to say here. How far will
+        this stretch? How far will this stretch? How far will this stretch? How
+        far will this stretch? How far will this stretch? How far will this
+        stretch?
+      </p>
     </div>
   );
 };
