@@ -1,22 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;500;800&display=swap");
 
-body {
-  font-family: "Roboto Slab", serif;
-  color: white;
-  background: url("./background.jpg") repeat black;
-}
-
 #solar-system {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
+  z-index: 0;
   overflow-x: hidden;
+  background: url("./background.jpg") repeat black;
 }
 
 #solar-system h1 {
-  margin-top: 200px;
-  margin-bottom: 400px;
+  margin-top: 150px;
+  margin-bottom: 600px;
   font-size: 3rem;
   text-align: left;
 }
@@ -27,4 +23,22 @@ body {
 
 #infinity {
   height: 500px;
+}
+
+/* Styles applied to all planets, moons and craters */
+
+.planetary-system {
+  height: 1000px;
+}
+
+.planet,
+.moon {
+  position: relative;
+  left: 50%;
+  border-radius: 50%;
+}
+
+.crater {
+  position: absolute;
+  border-radius: 50%;
 }

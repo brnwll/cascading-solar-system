@@ -1,36 +1,25 @@
-.planet,
-.moon {
-  position: relative;
-  left: 50%;
-  border-radius: 50%;
-}
-
 #earth .planet {
-  width: 100px;
+  width: 100px; /* 7,917 miles in diameter */
   height: 100px;
   margin: -50px 0 0 -50px;
   background-repeat: repeat-x;
-  background-image: url("./earth.svg");
+  background-image: url("./background.svg");
   background-size: auto 108%;
   background-color: rgb(76, 152, 244);
-  box-shadow: inset 0 0 30px 0px rgb(0, 0, 0);
-  z-index: 0;
-  animation: rotate-earth 1s linear infinite;
+  box-shadow: inset 0 0 30px 0px rgb(0, 0, 0),
+    0 0 20px -5px rgba(42, 124, 255, 0.922);
+  z-index: 30;
+  animation: rotate-earth 1s linear infinite; /* 1day = 10s */
 }
 
 #earth .moon {
   top: -50px; /* half the size of the planet */
-  width: 30px;
-  height: 30px;
-  margin: -15px 0 0 -15px;
+  width: 28px;
+  height: 28px;
+  margin: -14px 0 0 -14px;
   background: white;
   box-shadow: 0 0 20px -5px rgb(0, 0, 0), inset 0 0 20px -5px rgb(0, 0, 0);
-  animation: moon-orbit 10s ease-in-out infinite;
-}
-
-.crater {
-  position: absolute;
-  border-radius: 50%;
+  animation: moon-orbit 27s ease-in-out infinite; /* 1 x 27 = 27 */
 }
 
 #earth .moon .crater {
@@ -42,22 +31,22 @@
 #earth .moon #crater1 {
   top: 15%;
   left: 20%;
-  width: 7px;
-  height: 7px;
+  width: 5px;
+  height: 5px;
 }
 
 #earth .moon #crater2 {
   top: 65%;
   left: 35%;
-  width: 5px;
-  height: 5px;
+  width: 4px;
+  height: 4px;
 }
 
 #earth .moon #crater3 {
   top: 45%;
   left: 65%;
-  width: 6px;
-  height: 6px;
+  width: 3px;
+  height: 3px;
 }
 
 @keyframes rotate-earth {
@@ -73,39 +62,39 @@
   0% {
     top: -35px;
     left: calc(50% - 200px);
-    z-index: 1;
-    width: 30px;
-    height: 30px;
+    z-index: 31;
+    width: 20px;
+    height: 20px;
     background-color: rgb(229, 229, 229);
   }
   25% {
     /* passing in front of the planet */
-    z-index: 1;
-    width: 35px;
-    height: 35px;
+    z-index: 31;
+    width: 25px;
+    height: 25px;
     background-color: white;
   }
   50% {
     top: -65px;
     left: calc(50% + 200px);
-    z-index: -1;
-    width: 30px;
-    height: 30px;
+    z-index: 29;
+    width: 20px;
+    height: 20px;
     background-color: rgb(229, 229, 229);
   }
   75% {
     /* passing behind the planet */
-    z-index: -1;
-    width: 25px;
-    height: 25px;
+    z-index: 29;
+    width: 15px;
+    height: 15px;
     background-color: rgb(190, 190, 190);
   }
   100% {
     top: -35px;
     left: calc(50% - 200px);
-    z-index: 1;
-    width: 30px;
-    height: 30px;
+    z-index: 31;
+    width: 20px;
+    height: 20px;
     background-color: rgb(229, 229, 229);
   }
 }

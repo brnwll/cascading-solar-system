@@ -127,3 +127,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* Global styles */
+body {
+  font-family: "Roboto Slab", serif;
+  color: white;
+  background: black;
+}
