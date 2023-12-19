@@ -1,8 +1,8 @@
 #saturn .planet {
   position: relative;
-  width: 460px; /* ?? miles in diameter */
-  height: 460px; /* not to scale */
-  margin: -230px 0 0 -230px;
+  width: 250px; /* ?? miles in diameter */
+  height: 250px; /* not to scale */
+  margin: -125px 0 0 -125px;
   rotate: 10deg;
   background-repeat: repeat-x;
   background-image: url("./background.jpg");
@@ -13,32 +13,39 @@
   z-index: 60;
   /* not to scale */
   animation: rotate-jupiter 30s linear infinite;
-  box-shadow: 0 0 15px 1px rgba(255, 255, 255, 0.689);
+  box-shadow: 0 0 15px 1px rgba(255, 255, 255, 0.495);
 }
 
 .ring1-back {
   position: relative;
-  top: -250px;
-  width: 800px;
-  height: 50px;
+  top: -150px;
+  width: 500px;
+  height: 40px;
   rotate: 10deg;
+  background: rgba(255, 255, 255, 0.232);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.358) 0%,
+    rgba(205, 195, 149, 0.714) 100%
+  );
   border-radius: 50%;
-  border-top: 25px solid rgba(207, 177, 138, 0.832);
-  border-right: 80px solid rgba(207, 177, 138, 0.832);
-  border-left: 80px solid rgba(207, 177, 138, 0.832);
+  border-top: 20px solid rgba(207, 177, 138, 0.832);
+  border-right: 70px solid rgba(207, 177, 138, 0.832);
+  border-left: 70px solid rgba(207, 177, 138, 0.832);
+  box-shadow: 0 5px 15px 1px rgba(255, 255, 255, 0.31);
 }
 
 .ring1-front {
   position: relative;
-  top: -325px;
-  width: 800px;
-  height: 50px;
+  top: -210px;
+  width: 500px;
+  height: 40px;
   rotate: 10deg;
   border-radius: 50%;
   z-index: 65;
-  border-bottom: 25px solid rgba(207, 177, 138, 0.832);
-  border-right: 80px solid rgba(207, 177, 138, 0.832);
-  border-left: 80px solid rgba(207, 177, 138, 0.832);
+  border-bottom: 20px solid rgba(207, 177, 138, 0.832);
+  border-right: 70px solid rgba(207, 177, 138, 0.832);
+  border-left: 70px solid rgba(207, 177, 138, 0.832);
 }
 
 @keyframes rotate-saturn {

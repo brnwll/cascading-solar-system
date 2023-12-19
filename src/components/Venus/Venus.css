@@ -9,7 +9,7 @@
   box-shadow: inset 0 0 10px 0px rgb(0, 0, 0);
   z-index: 20;
   /* 243 earth days per 1 mercury day */
-  animation: rotate-venus 150s linear infinite;
+  animation: rotate-venus 75s linear infinite;
 }
 
 @keyframes rotate-venus {
