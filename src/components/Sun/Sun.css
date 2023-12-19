@@ -1,8 +1,8 @@
 #sun {
   position: relative;
-  width: 1000px;
-  height: 1000px;
-  margin-top: -850px;
+  width: 11000px;
+  height: 11000px;
+  margin-top: -10850px;
   border-radius: 50%;
   border: 1px solid rgb(210, 84, 0);
   background-image: url("./background.png");

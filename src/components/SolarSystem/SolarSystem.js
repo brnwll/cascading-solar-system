@@ -4,6 +4,8 @@ import Sun from "../Sun/Sun";
 import Mercury from "../Mercury/Mercury";
 import Venus from "../Venus/Venus";
 import Earth from "../Earth/Earth";
+import Mars from "../Mars/Mars";
+import Jupiter from "../Jupiter/Jupiter";
 
 function SolarSystem() {
   return (
@@ -17,6 +19,8 @@ function SolarSystem() {
       <Mercury />
       <Venus />
       <Earth />
+      <Mars />
+      <Jupiter />
       <div id="infinity"></div>
     </div>
   );

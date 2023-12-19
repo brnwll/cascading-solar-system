@@ -1,0 +1,104 @@
+/* TODO: Deimos */
+
+#mars .planet {
+  width: 84px; /* 6790 miles in diameter */
+  height: 84px;
+  margin: -42px 0 0 -42px;
+  background-repeat: repeat-x;
+  background-image: url("./background.jpg");
+  background-size: auto 112%;
+  background-position-y: -3px;
+  background-color: gray;
+  box-shadow: inset 0 0 10px 0px rgb(0, 0, 0);
+  z-index: 40;
+  /* ~1 earth days per 1 mercury day */
+  animation: rotate-mars 5s linear infinite;
+}
+
+@keyframes rotate-mars {
+  0% {
+    background-position-x: 182%;
+  }
+  100% {
+    background-position-x: 0%;
+  }
+}
+
+#mars .moon {
+  top: -42px; /* half the size of the planet */
+  width: 1px;
+  height: 1px;
+  margin: -1px 0 0 -1px;
+}
+
+#phobos {
+  animation: phobos-orbit 1.5s ease-in-out infinite;
+}
+
+#deimos {
+  animation: phobos-orbit 6.5s ease-in-out infinite;
+}
+
+@keyframes phobos-orbit {
+  /* ~3,800m from surface, 3x per day */
+  0% {
+    top: -40px;
+    left: calc(50% - 88px);
+    z-index: 41;
+    background-color: rgba(229, 229, 229, 0.291);
+  }
+  25% {
+    /* passing in front of the planet */
+    z-index: 41;
+    background-color: rgba(255, 255, 255, 0.531);
+  }
+  50% {
+    top: -44px;
+    left: calc(50% + 88px);
+    z-index: 39;
+    background-color: rgba(229, 229, 229, 0.349);
+  }
+  75% {
+    /* passing behind the planet */
+    z-index: 39;
+    background-color: rgba(190, 190, 190, 0.164);
+  }
+  100% {
+    top: -40px;
+    left: calc(50% - 88px);
+    z-index: 41;
+    background-color: rgba(229, 229, 229, 0.29);
+  }
+}
+
+@keyframes deimos-orbit {
+  /* ~14,500 from surface, 1.26x per day */
+  0% {
+    top: -40px;
+    left: calc(50% - 88px);
+    z-index: 39;
+    background-color: rgb(229, 229, 229);
+  }
+  25% {
+    /* passing in front of the planet */
+    z-index: 39;
+    background-color: white;
+  }
+  50% {
+    top: -44px;
+    left: calc(50% + 88px);
+    z-index: 41;
+    background-color: rgb(229, 229, 229);
+  }
+  75% {
+    /* passing behind the planet */
+    z-index: 41;
+    background-color: rgb(190, 190, 190);
+  }
+  100% {
+    top: -40px;
+    left: calc(50% - 88px);
+    z-index: 39;
+    background-color: rgb(229, 229, 229);
+  }
+}

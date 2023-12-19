@@ -1,0 +1,23 @@
+#jupiter .planet {
+  width: 600px; /* 86,881 miles in diameter */
+  height: 600px; /* not to scale */
+  margin: -300px 0 0 -300px;
+  background-repeat: repeat-x;
+  background-image: url("./background.jpg");
+  background-size: auto 108%;
+  background-color: gray;
+  box-shadow: inset 0 0 150px 50px rgba(31, 24, 0, 0.271),
+    0 0 20px -5px rgba(255, 255, 255, 0.714);
+  z-index: 10;
+  /* not to scale */
+  animation: rotate-jupiter 30s linear infinite;
+}
+
+@keyframes rotate-jupiter {
+  0% {
+    background-position-x: 186%;
+  }
+  100% {
+    background-position-x: 0%;
+  }
+}
