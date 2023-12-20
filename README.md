@@ -14,7 +14,7 @@ This project is a hands-on learning experience in CSS, focused on building a sol
 
 ## Live Project
 
-View the live project here: [Live Project Link]()
+View the live project here: [https://cascading-solar-system.netlify.app/]()
 
 ## Contributing
 
