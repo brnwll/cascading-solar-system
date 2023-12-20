@@ -13,7 +13,6 @@ const Mars = () => {
         <p className="css-note">
           <span>CSS:</span> Look closely. Mars has two moons.
         </p>
-        <button>Let's go</button>
       </div>
     </div>
   );

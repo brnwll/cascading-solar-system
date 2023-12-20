@@ -30,8 +30,25 @@ function SolarSystem() {
       <Neptune />
       <div id="infinity"></div>
       <footer>
-        <h4>About Cascading Solar System</h4>
-        <p>TODO: Add notes about...</p>
+        <div>
+          <h4>Cascading Solar System</h4>
+          <p>
+            CSS was developed as an educational project to better understand CSS
+            animations. None of the planets displayed are to scale relative to
+            one another. Given the vast differences in size, it would be
+            impossible to achieve in any usable way.
+          </p>
+          <ul>
+            <li>
+              <a href="http://www.brnwll.com">brnwll</a>
+            </li>
+            <li>
+              <a href="https://github.com/brnwll/cascading-solar-system">
+                github
+              </a>
+            </li>
+          </ul>
+        </div>
       </footer>
     </div>
   );

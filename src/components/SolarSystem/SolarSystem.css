@@ -86,12 +86,50 @@ h2 {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   padding: 100px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.087);
 }
 
+footer div {
+  align-self: center;
+  max-width: 800px;
+  padding: 0 50px;
+}
+
 footer h4,
 footer p {
-  margin: 0 75px;
+  line-height: 1.4rem;
+}
+
+footer h4 {
+  margin-bottom: 20px;
+}
+
+footer p {
+  font-weight: 300;
+}
+
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+
+footer li {
+  margin-right: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color:rgba(240, 17, 17, 0.818)
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color:rgb(255, 53, 53)
 }
