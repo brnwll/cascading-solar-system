@@ -12,11 +12,17 @@
   animation: rotate-earth 1.5s linear infinite; /* 1day = 10s */
 }
 
+.moon-container {
+  /* prevents moon animation from displaying the description below */
+  min-height: 50px;
+  margin-bottom: -50px;
+}
+
 #earth .moon {
   top: -50px; /* half the size of the planet */
-  width: 28px;
-  height: 28px;
-  margin: -14px 0 0 -14px;
+  width: 22px;
+  height: 22px;
+  margin: -11px 0 0 -11px;
   background: white;
   box-shadow: 0 0 20px -5px rgb(0, 0, 0), inset 0 0 20px -5px rgb(0, 0, 0);
   animation: moon-orbit 10s ease-in-out infinite; /* 1 x 27 = 27 */
@@ -60,7 +66,7 @@
 
 @keyframes moon-orbit {
   0% {
-    top: -35px;
+    /*top: -35px;*/
     left: calc(50% - 200px);
     z-index: 31;
     width: 20px;
@@ -75,7 +81,7 @@
     background-color: white;
   }
   50% {
-    top: -65px;
+    /*top: -65px;*/
     left: calc(50% + 200px);
     z-index: 29;
     width: 20px;
@@ -90,7 +96,7 @@
     background-color: rgb(190, 190, 190);
   }
   100% {
-    top: -35px;
+    /*top: -35px;*/
     left: calc(50% - 200px);
     z-index: 31;
     width: 20px;
