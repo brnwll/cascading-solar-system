@@ -9,10 +9,10 @@ const Saturn = () => {
       <div className="ring1-front"></div>
       <div className="planet-desc">
         <h2>Saturn</h2>
-        <p>Another gas giant, impossible to display anywhere close to scale</p>
+        <p>The Ringed Gas Giant</p>
         <p className="css-note">
-          <span>CSS:</span> Saturn's rings are actually 2 separate elements, one
-          rendered behind the planet and the other in the foreground.
+          <span>CSS Technique:</span> Saturn's rings are crafted using two
+          separate elements, one behind and one in front of the planet.
         </p>
       </div>
     </div>

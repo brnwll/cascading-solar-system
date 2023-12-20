@@ -12,11 +12,11 @@ const Earth = () => {
       </div>
       <div className="planet-desc">
         <h2>Earth</h2>
-        <p>If you're reading this, you're on the right planet</p>
+        <p>Our Home Planet</p>
         <p className="css-note">
-          <span>CSS:</span> Moon orbit is achieved by animating the top and left
-          position of the moon. Z-index is used to place the moon behind the
-          planet depending on the position of the moon
+          <span>CSS Technique:</span> The moon's orbit is animated using the top
+          and left positions. Z-index layers the moon behind the planet as
+          needed.
         </p>
       </div>
     </div>

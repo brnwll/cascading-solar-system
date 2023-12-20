@@ -7,10 +7,10 @@ const Venus = () => {
       <div className="planet"></div>
       <div className="planet-desc">
         <h2>Venus</h2>
-        <p>A day on Venus is longer than a year</p>
+        <p>Where Days Outlast Years</p>
         <p className="css-note">
-          <span>CSS:</span> Surface rotation is achieved by applying a <br />
-          x-axis translation animation on the background image
+          <span>CSS Technique:</span> Simulate surface rotation with <br />
+          x-axis translation animation on the background image.
         </p>
       </div>
     </div>

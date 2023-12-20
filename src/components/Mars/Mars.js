@@ -9,9 +9,9 @@ const Mars = () => {
       <div id="deimos" className="moon"></div>
       <div className="planet-desc">
         <h2>Mars</h2>
-        <p>Our soon to be second home</p>
+        <p>The Future Second Home for Humanity</p>
         <p className="css-note">
-          <span>CSS:</span> Look closely. Mars has two moons.
+          <span>Note:</span> Mars is unique with its two moons. Observe closely!
         </p>
       </div>
     </div>

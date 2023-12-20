@@ -7,13 +7,10 @@ const Neptune = () => {
       <div className="planet"></div>
       <div className="planet-desc">
         <h2>Neptune</h2>
-        <p>
-          Given it's proximity to Pluto, Neptune probably had something to do
-          with getting it thrown out of the club.
-        </p>
+        <p>The Distant Ice Giant</p>
         <p className="css-note">
-          <span>CSS:</span> After Earth and Mars, creating moons grew tiresome.
-          But Neptune has some, probably.
+          <span>CSS Note:</span> After Earth and Mars, creating additional moons
+          was less focused. Neptune has them, though, in some form.
         </p>
       </div>
     </div>

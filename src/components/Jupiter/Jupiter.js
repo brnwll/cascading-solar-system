@@ -7,13 +7,10 @@ const Jupiter = () => {
       <div className="planet"></div>
       <div className="planet-desc">
         <h2>Jupiter</h2>
-        <p>
-          Not to scale, but if it was it would likely extend beyond the borders
-          of your browser
-        </p>
+        <p>A Giant Beyond Browser Scale</p>
         <p className="css-note">
-          <span>CSS:</span> Box-shadow is applied to create a glow or
-          atmospheric effect on many of the planets.
+          <span>CSS Technique:</span> Employ box-shadow to create a glowing or
+          atmospheric effect around the planet.
         </p>
       </div>
     </div>

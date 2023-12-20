@@ -7,12 +7,10 @@ const Uranus = () => {
       <div className="planet"></div>
       <div className="planet-desc">
         <h2>Uranus</h2>
-        <p>
-          <i>** insert your anus joke **</i>
-        </p>
+        <p>The Often Overlooked Ice Giant</p>
         <p className="css-note">
-          <span>CSS:</span> Uranus is rather plain with nothing much noteworthy
-          to see or comment on
+          <span>CSS Technique:</span> Uranus appears quite plain, with minimal
+          notable features other that box-shadow and gradient
         </p>
       </div>
     </div>

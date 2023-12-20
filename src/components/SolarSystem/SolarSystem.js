@@ -33,10 +33,10 @@ function SolarSystem() {
         <div>
           <h4>Cascading Solar System</h4>
           <p>
-            CSS was developed as an educational project to better understand CSS
-            animations. None of the planets displayed are to scale relative to
-            one another. Given the vast differences in size, it would be
-            impossible to achieve in any usable way.
+            Cascading Solar System was developed as an educational project to
+            explore CSS animations in-depth. The planets are not to scale
+            relative to each other; achieving such a scale would be impractical
+            for display purposes.
           </p>
           <ul>
             <li>
