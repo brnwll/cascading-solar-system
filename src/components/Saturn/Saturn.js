@@ -8,12 +8,11 @@ const Saturn = () => {
       <div className="ring1-back"></div>
       <div className="ring1-front"></div>
       <div className="planet-desc">
-        <h2>Planet name</h2>
-        <p>
-          Description of Planet name. Add anything you want to say here. How far
-          will this stretch? How far will this stretch? How far will this
-          stretch? How far will this stretch? How far will this stretch? How far
-          will this stretch?
+        <h2>Saturn</h2>
+        <p>Another gas giant, impossible to display anywhere close to scale</p>
+        <p className="css-note">
+          <span>CSS:</span> Saturn's rings are actually 2 separate elements, one
+          rendered behind the planet and the other in the foreground.
         </p>
       </div>
     </div>

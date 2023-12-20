@@ -6,12 +6,14 @@ const Neptune = () => {
     <div id="neptune" className="planetary-system">
       <div className="planet"></div>
       <div className="planet-desc">
-        <h2>Planet name</h2>
+        <h2>Neptune</h2>
         <p>
-          Description of Planet name. Add anything you want to say here. How far
-          will this stretch? How far will this stretch? How far will this
-          stretch? How far will this stretch? How far will this stretch? How far
-          will this stretch?
+          Given it's proximity to Pluto, Neptune probably had something to do
+          with getting it thrown out of the club.
+        </p>
+        <p className="css-note">
+          <span>CSS:</span> After Earth and Mars, creating moons grew tiresome.
+          But Neptune has some, probably.
         </p>
       </div>
     </div>

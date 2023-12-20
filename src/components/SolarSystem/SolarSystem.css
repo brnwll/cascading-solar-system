@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;500;600&display=swap");
 
 #solar-system {
   display: flex;
@@ -12,7 +12,7 @@
 
 #solar-system h1 {
   margin-top: 200px;
-  margin-bottom: 600px;
+  margin-bottom: 700px;
   font-size: 3rem;
   text-align: left;
 }
@@ -24,7 +24,7 @@
 #solar-system h1 .desc {
   border-top: 1px solid rgba(255, 255, 255, 0.184);
   padding-top: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.484);
 }
@@ -59,17 +59,39 @@
 
 h2 {
   font-weight: 600;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
+  margin-bottom: 12px;
+  padding-bottom: 15px;
+  font-size: 1rem;
   text-align: center;
-  color: rgba(240, 17, 17, 0.818);
+  color: rgba(196, 196, 196, 0.769);
   border-bottom: 1px solid rgba(255, 255, 255, 0.184);
 }
 
 .planet-desc {
   color: rgba(255, 255, 255, 0.631);
   font-weight: 300;
-  margin-top: 100px;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  margin-top: 110px;
   max-width: 300px;
   align-self: center;
+}
+
+.css-note {
+  margin-top: 10px;
+}
+
+.css-note span {
+  color: rgba(240, 17, 17, 0.818);
+}
+
+footer {
+  width: 100%;
+  padding: 100px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.087);
+}
+
+footer h4,
+footer p {
+  margin: 0 75px;
 }

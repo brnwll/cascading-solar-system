@@ -6,12 +6,11 @@ const Mercury = () => {
     <div id="mercury" className="planetary-system">
       <div className="planet"></div>
       <div className="planet-desc">
-        <h2>Planet name</h2>
-        <p>
-          Description of Planet name. Add anything you want to say here. How far
-          will this stretch? How far will this stretch? How far will this
-          stretch? How far will this stretch? How far will this stretch? How far
-          will this stretch?
+        <h2>Mercury</h2>
+        <p>The smallest planet in the Solar System</p>
+        <p className="css-note">
+          <span>CSS:</span> The planet surface effect is achieved by applying an
+          image as the background
         </p>
       </div>
     </div>

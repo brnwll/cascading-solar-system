@@ -8,13 +8,12 @@ const Mars = () => {
       <div id="phobos" className="moon"></div>
       <div id="deimos" className="moon"></div>
       <div className="planet-desc">
-        <h2>Planet name</h2>
-        <p>
-          Description of Planet name. Add anything you want to say here. How far
-          will this stretch? How far will this stretch? How far will this
-          stretch? How far will this stretch? How far will this stretch? How far
-          will this stretch?
+        <h2>Mars</h2>
+        <p>Our soon to be second home</p>
+        <p className="css-note">
+          <span>CSS:</span> Look closely. Mars has two moons.
         </p>
+        <button>Let's go</button>
       </div>
     </div>
   );

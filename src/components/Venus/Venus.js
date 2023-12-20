@@ -6,12 +6,11 @@ const Venus = () => {
     <div id="venus" className="planetary-system">
       <div className="planet"></div>
       <div className="planet-desc">
-        <h2>Planet name</h2>
-        <p>
-          Description of Planet name. Add anything you want to say here. How far
-          will this stretch? How far will this stretch? How far will this
-          stretch? How far will this stretch? How far will this stretch? How far
-          will this stretch?
+        <h2>Venus</h2>
+        <p>A day on Venus is longer than a year</p>
+        <p className="css-note">
+          <span>CSS:</span> Surface rotation is achieved by applying a <br />
+          x-axis translation animation on the background image
         </p>
       </div>
     </div>

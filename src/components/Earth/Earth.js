@@ -11,12 +11,12 @@ const Earth = () => {
         <div id="crater3" className="crater"></div>
       </div>
       <div className="planet-desc">
-        <h2>Planet name</h2>
-        <p>
-          Description of Planet name. Add anything you want to say here. How far
-          will this stretch? How far will this stretch? How far will this
-          stretch? How far will this stretch? How far will this stretch? How far
-          will this stretch?
+        <h2>Earth</h2>
+        <p>If you're reading this, you're on the right planet</p>
+        <p className="css-note">
+          <span>CSS:</span> Moon orbit is achieved by animating the top and left
+          position of the moon. Z-index is used to place the moon behind the
+          planet depending on the position of the moon
         </p>
       </div>
     </div>

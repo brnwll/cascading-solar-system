@@ -6,12 +6,13 @@ const Uranus = () => {
     <div id="uranus" className="planetary-system">
       <div className="planet"></div>
       <div className="planet-desc">
-        <h2>Planet name</h2>
+        <h2>Uranus</h2>
         <p>
-          Description of Planet name. Add anything you want to say here. How far
-          will this stretch? How far will this stretch? How far will this
-          stretch? How far will this stretch? How far will this stretch? How far
-          will this stretch?
+          <i>** insert your anus joke **</i>
+        </p>
+        <p className="css-note">
+          <span>CSS:</span> Uranus is rather plain with nothing much noteworthy
+          to see or comment on
         </p>
       </div>
     </div>
